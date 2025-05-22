@@ -126,6 +126,10 @@
             font-style: italic;
             color: #718096;
         }
+        .reserved {
+            color: #e53e3e;
+            font-weight: bold;
+        }
         .footer {
             text-align: center;
             margin-top: 50px;
@@ -176,6 +180,27 @@
         .countdown-label {
             font-size: 0.9rem;
             text-transform: uppercase;
+        }
+        
+        /* Money Owed Section */
+        .money-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        .money-table th, .money-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .money-table th {
+            background-color: #edf2f7;
+            font-weight: bold;
+            color: #1a5785;
+        }
+        .money-amount {
+            font-weight: bold;
+            color: #2c5282;
         }
         
         @keyframes pulse {
@@ -229,26 +254,59 @@
     
     <div class="day-card">
         <h2>Countdown to Seattle Trip</h2>
-        <div id="countdown-container" class="countdown-container">
-            <div class="countdown-box">
-                <span id="days" class="countdown-number">--</span>
-                <span class="countdown-label">Days</span>
+
+        <!-- Container for GIFs + countdown -->
+        <div style="display: flex; align-items: center; justify-content: center; margin: 1em 0;">
+            <!-- Left Alex -->
+            <div style="flex: 0 0 auto; padding-right: 2%;">
+                <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHlzaTV5ZHhwNGhrczI0bm4ydmQ1bTVzbWxlODJxOWNhaDFnNTE2MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/YrZH2QxktEcTOtGwqL/giphy.webp" alt="Alex Dancing Left" style="max-width: 100px; width: 100%; border-radius: 10px;">
             </div>
-            <div class="countdown-box">
-                <span id="hours" class="countdown-number">--</span>
-                <span class="countdown-label">Hours</span>
+            
+            <!-- Countdown Timer -->
+            <div id="countdown-container" class="countdown-container" style="flex: 1 1 auto; min-width: 300px; max-width: 400px;">
+                <div class="countdown-box">
+                    <span id="days" class="countdown-number">--</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-box">
+                    <span id="hours" class="countdown-number">--</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-box">
+                    <span id="minutes" class="countdown-number">--</span>
+                    <span class="countdown-label">Mins</span>
+                </div>
+                <div class="countdown-box">
+                    <span id="seconds" class="countdown-number">--</span>
+                    <span class="countdown-label">Secs</span>
+                </div>
             </div>
-            <div class="countdown-box">
-                <span id="minutes" class="countdown-number">--</span>
-                <span class="countdown-label">Mins</span>
-            </div>
-            <div class="countdown-box">
-                <span id="seconds" class="countdown-number">--</span>
-                <span class="countdown-label">Secs</span>
+            
+            <!-- Right Julius -->
+            <div style="flex: 0 0 auto; padding-left: 2%;">
+                <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHlzaTV5ZHhwNGhrczI0bm4ydmQ1bTVzbWxlODJxOWNhaDFnNTE2MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KDc4nW81te869NNZOT/giphy.webp" alt="Dancing Julius Right" style="max-width: 100px; width: 100%; border-radius: 10px;">
             </div>
         </div>
+
+        <!-- Add responsive styling for mobile -->
+        <style>
+            @media (max-width: 600px) {
+                #countdown-container {
+                    min-width: 200px !important;
+                }
+                .countdown-box {
+                    margin: 0 2px;
+                }
+                /* Smaller GIFs on mobile */
+                #countdown-container + div img,
+                #countdown-container ~ div:first-of-type img {
+                    max-width: 70px;
+                }
+            }
+        </style>
+
         <script>
-            // Set the date we're counting down to - explicitly use UTC time for 2025
+            // Set the date we're counting down to - explicitly use Pacific time (UTC-7)
             var countDownDate = new Date("2025-05-24T16:00:00-07:00").getTime();
     
             // Update the countdown every 1 second
@@ -298,11 +356,11 @@
                 <td>Check in at hotel</td>
             </tr>
             <tr>
-                <td>5:00-8:00 PM</td>
-                <td><span class="highlight">La Loba</span> <span class="note">(pending confirmation)</span></td>
+                <td>4:30-6:30 PM</td>
+                <td><span class="highlight">La Loba</span> private room <span class="reserved">(reserved)</span></td>
             </tr>
             <tr>
-                <td>8:00 PM+</td>
+                <td>6:30 PM+</td>
                 <td><span class="highlight">Belltown Bar Hop & Clubs</span><br>• Vue<br>• Saravejo<br>• Ora</td>
             </tr>
         </table>
@@ -316,31 +374,31 @@
                 <th>Activity</th>
             </tr>
             <tr>
-                <td>10:00-12:00 PM</td>
-                <td><span class="highlight">Brunch at El Camino</span></td>
+                <td>11:00-12:30 PM</td>
+                <td><span class="highlight">Brunch at El Camino</span> <span class="reserved">(reserved)</span></td>
             </tr>
             <tr>
-                <td>12:30-2:00 PM</td>
-                <td>Seattle Sound Boat Cruise</td>
+                <td>1:30-2:30 PM</td>
+                <td>Salish Sea Tour <span class="reserved">(reserved)</span></td>
             </tr>
             <tr>
-                <td>2:00-3:00 PM</td>
-                <td>Return to hotel to change clothes</td>
+                <td>2:30-3:00 PM</td>
+                <td>Change clothes for nighttime</td>
             </tr>
             <tr>
                 <td>3:00-5:00 PM</td>
-                <td>Game Room Nexus</td>
+                <td>Game Room Nexus <span class="reserved">(reserved)</span></td>
             </tr>
             <tr>
-                <td>5:00-6:00 PM</td>
+                <td>5:00-6:30 PM</td>
                 <td>Explore Glossier/Starbucks Reserve/Book Club</td>
             </tr>
             <tr>
-                <td>6:30-8:30 PM</td>
-                <td><span class="highlight">Dinner at Elliott's Oyster House</span></td>
+                <td>7:00-8:30 PM</td>
+                <td><span class="highlight">Dinner at Elliott's Oyster House</span> <span class="reserved">(reserved)</span></td>
             </tr>
             <tr>
-                <td>9:00 PM+</td>
+                <td>8:30 PM+</td>
                 <td>Pioneer Square nightlife<br>• X Stadium<br>• Cowgirls<br>• Bar hopping</td>
             </tr>
         </table>
@@ -363,19 +421,19 @@
             </tr>
             <tr>
                 <td>1:30-3:00 PM</td>
-                <td>Space Needle (with Lay & Chris)</td>
+                <td>Space Needle <span class="reserved">(tickets purchased)</span></td>
             </tr>
             <tr>
                 <td>3:30-4:30 PM</td>
-                <td><span class="highlight">Flatstick Pub</span></td>
+                <td><span class="highlight">Flatstick Pub SLU</span> <span class="reserved">(reserved)</span></td>
             </tr>
             <tr>
                 <td>4:30-5:00 PM</td>
-                <td>Return to hotel to change clothes</td>
+                <td>Change of clothes for nighttime</td>
             </tr>
             <tr>
                 <td>5:00-7:00 PM</td>
-                <td><span class="highlight">Sky Lounge</span> (pregame + snacks)</td>
+                <td><span class="highlight">Sky Lounge</span> (pregame + snacks) <span class="reserved">(reserved)</span></td>
             </tr>
             <tr>
                 <td>7:00 PM+</td>
@@ -393,34 +451,54 @@
             </tr>
             <tr>
                 <td>11:00 AM</td>
-                <td>Hotel checkout (drop bags at Nexus)</td>
+                <td>Hotel checkout (drop bags @ Nexus)</td>
             </tr>
             <tr>
-                <td>11:00 AM</td>
-                <td><span class="highlight">Brunch at Portage Bay Cafe</span></td>
+                <td>11:15 AM-1:00 PM</td>
+                <td><span class="highlight">Brunch at Portage Bay Cafe SLU</span> <span class="reserved">(reserved)</span></td>
             </tr>
             <tr>
                 <td>1:30 PM</td>
-                <td>Depart for airport</td>
+                <td>Drop off at airport</td>
             </tr>
         </table>
     </div>
     
+    <!-- Updated Money Owed Section -->
     <div class="day-card">
-        <h2>Map of Locations</h2>
-        <iframe 
-            width="100%" 
-            height="450" 
-            frameborder="0" 
-            style="border:0; border-radius: 10px;" 
-            src="https://www.google.com/maps/embed/v1/search?q=La%20Loba%20Seattle%7CEl%20Camino%20Seattle%7CElliott's%20Oyster%20House%7CBacco%20Cafe%20Pike%20Place%7CSpace%20Needle%7CFlatstick%20Pub%20South%20Lake%20Union%7CSky%20Lounge%20Seattle%7CPortage%20Bay%20Cafe%20South%20Lake%20Union%7CPioneer%20Square%20Seattle%7CCapitol%20Hill%20Seattle&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" 
-            allowfullscreen>
-        </iframe>
+        <h2>Money Owed for Reservations</h2>
+        <table class="money-table">
+            <tr>
+                <th>Item</th>
+                <th>Total Amount</th>
+                <th>Per Person</th>
+            </tr>
+            <tr>
+                <td>Salish Sea Tour</td>
+                <td class="money-amount">$282.59</td>
+                <td class="money-amount">$40.00 per person</td>
+            </tr>
+            <tr>
+                <td>Flatstick Pub</td>
+                <td class="money-amount">$92.69</td>
+                <td class="money-amount">$13.00 per person</td>
+            </tr>
+        </table>
+        <p style="margin-top: 15px; font-style: italic;">Payment options:</p>
+        <ul style="font-style: italic;">
+            <li>Zelle: brianloaiza123@gmail.com (661-236-3661)</li>
+            <li>Venmo: @bloaiza</li>
+        </ul>
     </div>
     
     <div class="day-card">
+        <h2>Map of Locations</h2>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1HkMt7RX2DcuAPfrejLemwEyEFF4PmqM&ehbc=2E312F&noprof=1" width="100%" height="480"> style="border:0; border-radius: 10px;"></iframe>
+    </div>
+
+    <div class="day-card">
         <h2>Current Seattle Weather</h2>
-        <a class="weatherwidget-io" href="https://forecast7.com/en/47d61n122d33/seattle/" data-label_1="SEATTLE" data-label_2="WEATHER" data-theme="original" >SEATTLE WEATHER</a>
+        <a class="weatherwidget-io" href="https://forecast7.com/en/47d61n122d33/seattle/?unit=us" data-label_1="SEATTLE" data-label_2="WEATHER" data-theme="original" >SEATTLE WEATHER</a>
         <script>
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
         </script>
