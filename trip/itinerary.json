@@ -1,0 +1,510 @@
+{
+  "title": "California Coast Road Trip",
+  "subtitle": "San Diego → Santa Clarita → Lancaster",
+  "dateRange": "November 18 – December 1, 2026",
+  "summary": "Five hotel nights along the coast, followed by a family stay in Lancaster.",
+  "guidelines": [
+    "Wrap up activities by 8–9 PM",
+    "Keep each day flexible around naps, meals, and traffic",
+    "Zoo and Newport Beach removed",
+    "Hotel suggestions are not reservations"
+  ],
+  "days": [
+    {
+      "id": "nov18",
+      "date": "Wed · Nov 18",
+      "short": "NOV 18",
+      "title": "San Diego → La Jolla",
+      "label": "Arrival & waterfront",
+      "overnight": "La Jolla",
+      "hotel": "Embassy Suites by Hilton San Diego La Jolla (shortlist)",
+      "hotelUrl": "https://www.hilton.com/en/hotels/sanljes-embassy-suites-san-diego-la-jolla/",
+      "note": "Landing time is unknown, so keep the downtown portion flexible. No Zoo visit.",
+      "blocks": [
+        {
+          "period": "After landing",
+          "items": [
+            {
+              "name": "San Diego downtown & waterfront",
+              "detail": "Embarcadero waterfront, Seaport Village or Gaslamp-area sightseeing; select based on arrival time",
+              "map": "Seaport Village San Diego CA",
+              "type": "sightseeing"
+            },
+            {
+              "name": "Balboa Park",
+              "detail": "Walk the gardens and architecture rather than committing to museum tickets",
+              "map": "Balboa Park San Diego CA",
+              "type": "sightseeing"
+            }
+          ]
+        },
+        {
+          "period": "Late afternoon / evening",
+          "items": [
+            {
+              "name": "La Jolla coastal stroll",
+              "detail": "La Jolla Cove or La Jolla Shores, depending on daylight and stroller access",
+              "map": "La Jolla Cove San Diego CA",
+              "type": "coast"
+            },
+            {
+              "name": "Check in and wind down",
+              "detail": "Aim to finish by 8–9 PM; earlier if needed for the baby",
+              "type": "hotel"
+            }
+          ]
+        }
+      ],
+      "gym": null,
+      "neighborhoods": [
+        "University City",
+        "La Jolla Shores",
+        "Carmel Valley"
+      ],
+      "shopping": [
+        "Westfield UTC (optional)"
+      ]
+    },
+    {
+      "id": "nov19",
+      "date": "Thu · Nov 19",
+      "short": "NOV 19",
+      "title": "La Jolla → San Clemente",
+      "label": "Bay Club & slow coastal drive",
+      "overnight": "San Clemente",
+      "hotel": "Holiday Inn Express San Clemente North Beach Area (shortlist)",
+      "hotelUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/san-clemente/laxsc/hoteldetail",
+      "note": "Bay Club must be early enough to return to the La Jolla hotel, shower, pack and check out. Confirm a late checkout in advance.",
+      "blocks": [
+        {
+          "period": "Morning",
+          "items": [
+            {
+              "name": "Bay Club Carmel Valley",
+              "detail": "Childcare schedule begins 8:30 AM Thursday; membership and reservation eligibility must be confirmed",
+              "map": "Bay Club Carmel Valley 12000 Carmel Country Rd San Diego CA",
+              "url": "https://bayclubs.com/clubs/carmelvalley",
+              "type": "gym"
+            },
+            {
+              "name": "Return to La Jolla hotel",
+              "detail": "Shower, pack and check out before driving north",
+              "type": "hotel"
+            }
+          ]
+        },
+        {
+          "period": "Afternoon / evening",
+          "items": [
+            {
+              "name": "Coastal drive north",
+              "detail": "Optional short break in Encinitas or Carlsbad; do not force extra stops",
+              "map": "Encinitas California",
+              "type": "coast",
+              "optional": true
+            },
+            {
+              "name": "San Clemente neighborhoods",
+              "detail": "Drive through Talega, Marblehead and coastal residential streets",
+              "map": "Talega San Clemente CA",
+              "type": "neighborhood"
+            },
+            {
+              "name": "Avenida Del Mar & pier",
+              "detail": "Walkable downtown, dining and ocean views",
+              "map": "San Clemente Pier CA",
+              "type": "coast"
+            },
+            {
+              "name": "24 Hour Fitness — San Clemente",
+              "detail": "110 Avenida La Pata; optional evening workout if timing permits",
+              "map": "24 Hour Fitness 110 Avenida La Pata San Clemente CA",
+              "url": "https://www.24hourfitness.com/gyms/san-clemente-ca/san-clemente-super-sport",
+              "type": "gym",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "gym": "Bay Club Carmel Valley · AM; 24 Hour Fitness San Clemente · optional PM",
+      "neighborhoods": [
+        "Talega",
+        "Marblehead",
+        "Forster Ranch"
+      ],
+      "shopping": [
+        "Avenida Del Mar",
+        "Outlets at San Clemente (optional)"
+      ]
+    },
+    {
+      "id": "nov20",
+      "date": "Fri · Nov 20",
+      "short": "NOV 20",
+      "title": "San Clemente → Huntington Beach",
+      "label": "Laguna, neighborhoods & shopping",
+      "overnight": "Huntington Beach",
+      "hotel": "Hyatt Regency Huntington Beach Resort and Spa (shortlist)",
+      "hotelUrl": "https://www.hyatt.com/hyatt-regency/en-US/hunrh-hyatt-regency-huntington-beach-resort-and-spa",
+      "note": "Do not attempt every mall. Choose at most one major shopping stop and one or two neighborhood drives.",
+      "blocks": [
+        {
+          "period": "Morning",
+          "items": [
+            {
+              "name": "Laguna Beach",
+              "detail": "Heisler Park and the village center; coastal views and a short walk",
+              "map": "Heisler Park Laguna Beach CA",
+              "type": "coast"
+            },
+            {
+              "name": "Mission Viejo / Laguna Niguel",
+              "detail": "Residential neighborhood evaluation and The Shops at Mission Viejo if desired",
+              "map": "The Shops at Mission Viejo CA",
+              "type": "neighborhood"
+            }
+          ]
+        },
+        {
+          "period": "Afternoon / evening",
+          "items": [
+            {
+              "name": "Irvine neighborhood drive",
+              "detail": "Turtle Rock / Woodbridge; Irvine Spectrum only if time allows",
+              "map": "Turtle Rock Irvine CA",
+              "type": "neighborhood"
+            },
+            {
+              "name": "Costa Mesa shopping",
+              "detail": "South Coast Plaza optional instead of Irvine Spectrum",
+              "map": "South Coast Plaza Costa Mesa CA",
+              "type": "shopping",
+              "optional": true
+            },
+            {
+              "name": "Huntington Beach check-in",
+              "detail": "Beach walk or Pacific City before dinner",
+              "map": "Pacific City Huntington Beach CA",
+              "type": "coast"
+            },
+            {
+              "name": "24 Hour Fitness — Huntington Beach",
+              "detail": "Atlanta Ave Super-Sport, 9051 Atlanta Ave; Friday listed closing 9 PM",
+              "map": "24 Hour Fitness 9051 Atlanta Ave Huntington Beach CA",
+              "url": "https://www.24hourfitness.com/gyms/huntington-beach-ca/huntington-beach-atlanta-ave-super-sport",
+              "type": "gym",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "gym": "24 Hour Fitness Huntington Beach · optional evening",
+      "neighborhoods": [
+        "Laguna Niguel",
+        "Mission Viejo",
+        "Turtle Rock",
+        "Woodbridge",
+        "Huntington Harbour"
+      ],
+      "shopping": [
+        "The Shops at Mission Viejo",
+        "Irvine Spectrum Center (optional)",
+        "South Coast Plaza (optional)",
+        "Pacific City"
+      ]
+    },
+    {
+      "id": "nov21",
+      "date": "Sat · Nov 21",
+      "short": "NOV 21",
+      "title": "Huntington Beach → Redondo Beach",
+      "label": "Cerritos, Long Beach & Palos Verdes",
+      "overnight": "Redondo Beach",
+      "hotel": "Redondo Beach Hotel, Tapestry Collection by Hilton (shortlist)",
+      "hotelUrl": "https://www.hilton.com/en/hotels/laxlyup-redondo-beach-hotel/",
+      "note": "This is the fullest driving day. Keep Cerritos brief; prioritize Palos Verdes in daylight and arrive in Redondo before evening.",
+      "blocks": [
+        {
+          "period": "Morning / midday",
+          "items": [
+            {
+              "name": "Cerritos residential & retail loop",
+              "detail": "Los Cerritos Center and nearby neighborhoods; brief visit",
+              "map": "Los Cerritos Center CA",
+              "type": "shopping",
+              "optional": true
+            },
+            {
+              "name": "Long Beach — Belmont Shore / Naples",
+              "detail": "2ND & PCH, coastal neighborhoods and lunch",
+              "map": "2ND and PCH Long Beach CA",
+              "type": "neighborhood"
+            }
+          ]
+        },
+        {
+          "period": "Afternoon / evening",
+          "items": [
+            {
+              "name": "Palos Verdes Estates & Rolling Hills Estates",
+              "detail": "Malaga Cove, neighborhoods and legal public scenic viewpoints; check road restrictions",
+              "map": "Malaga Cove Plaza Palos Verdes Estates CA",
+              "type": "neighborhood"
+            },
+            {
+              "name": "Redondo Beach / Riviera Village",
+              "detail": "Check in, beach promenade and optional dinner",
+              "map": "Riviera Village Redondo Beach CA",
+              "type": "coast"
+            }
+          ]
+        }
+      ],
+      "gym": null,
+      "neighborhoods": [
+        "Cerritos",
+        "Naples / Belmont Shore",
+        "Palos Verdes Estates",
+        "Rolling Hills Estates",
+        "Hollywood Riviera"
+      ],
+      "shopping": [
+        "Los Cerritos Center (optional)",
+        "2ND & PCH",
+        "Riviera Village"
+      ]
+    },
+    {
+      "id": "nov22",
+      "date": "Sun · Nov 22",
+      "short": "NOV 22",
+      "title": "Redondo Beach → Santa Clarita",
+      "label": "Bay Club, Valley & Valencia",
+      "overnight": "Santa Clarita",
+      "hotel": "Hyatt Regency Valencia (shortlist)",
+      "hotelUrl": "https://www.hyatt.com/en-US/hotel/california/hyatt-regency-valencia/valen",
+      "note": "Bay Club Redondo Beach has no childcare; El Segundo offers childcare subject to membership access and a reservation. Mission Hills 24 Hour Fitness is en route if another workout is desired.",
+      "blocks": [
+        {
+          "period": "Morning",
+          "items": [
+            {
+              "name": "Bay Club El Segundo",
+              "detail": "Recommended for childcare: Sunday childcare window 8:00 AM–1:30 PM. Shower at the club after checkout if convenient.",
+              "map": "Bay Club El Segundo 2250 Park Pl El Segundo CA",
+              "url": "https://bayclubs.com/clubs/elsegundo",
+              "type": "gym"
+            },
+            {
+              "name": "Alternative: Bay Club Redondo Beach",
+              "detail": "Closer to the hotel, but no on-site childcare",
+              "map": "Bay Club Redondo Beach 819 North Harbor Dr CA",
+              "url": "https://bayclubs.com/clubs/redondobeach",
+              "type": "gym",
+              "optional": true
+            }
+          ]
+        },
+        {
+          "period": "Afternoon / evening",
+          "items": [
+            {
+              "name": "Sherman Oaks",
+              "detail": "Residential streets south of Ventura Blvd, shops and Sherman Oaks Galleria",
+              "map": "Sherman Oaks Galleria CA",
+              "type": "neighborhood"
+            },
+            {
+              "name": "Studio City",
+              "detail": "Ventura Blvd retail, quiet residential blocks and a short park stop",
+              "map": "Studio City Los Angeles CA",
+              "type": "neighborhood"
+            },
+            {
+              "name": "24 Hour Fitness — Mission Hills",
+              "detail": "10400 Sepulveda Blvd; closest practical 24 Hour Fitness on the northbound route; optional",
+              "map": "24 Hour Fitness 10400 Sepulveda Blvd Mission Hills CA",
+              "url": "https://www.24hourfitness.com/gyms/mission-hills-ca/mission-hills-super-sport",
+              "type": "gym",
+              "optional": true
+            },
+            {
+              "name": "Valencia check-in",
+              "detail": "Valencia Town Center area; early dinner and rest",
+              "map": "Westfield Valencia Town Center Santa Clarita CA",
+              "type": "hotel"
+            }
+          ]
+        }
+      ],
+      "gym": "Bay Club El Segundo · AM; Mission Hills 24 Hour Fitness · optional",
+      "neighborhoods": [
+        "South Torrance / Southwood (if time permits)",
+        "Sherman Oaks",
+        "Studio City",
+        "Valencia"
+      ],
+      "shopping": [
+        "Del Amo Fashion Center (optional)",
+        "Sherman Oaks Galleria",
+        "Valencia Town Center"
+      ]
+    },
+    {
+      "id": "nov23",
+      "date": "Mon · Nov 23",
+      "short": "NOV 23",
+      "title": "Santa Clarita → Lancaster",
+      "label": "Home-search morning",
+      "overnight": "Lancaster · family stay",
+      "hotel": "Staying with family (no hotel reservation)",
+      "hotelUrl": "",
+      "note": "No fixed lodging address is stored in the public trip plan. Keep the afternoon/evening flexible.",
+      "blocks": [
+        {
+          "period": "Morning / midday",
+          "items": [
+            {
+              "name": "Valencia and Bridgeport",
+              "detail": "Drive neighborhood streets, parks, daily-shopping corridors and schools from the outside",
+              "map": "Bridgeport Valencia CA",
+              "type": "neighborhood"
+            },
+            {
+              "name": "Stevenson Ranch",
+              "detail": "Residential drive and grocery / retail conveniences",
+              "map": "Stevenson Ranch CA",
+              "type": "neighborhood"
+            },
+            {
+              "name": "Optional local fitness",
+              "detail": "No 24 Hour Fitness in Santa Clarita itself; use hotel fitness room or a run instead",
+              "type": "gym",
+              "optional": true
+            }
+          ]
+        },
+        {
+          "period": "Afternoon",
+          "items": [
+            {
+              "name": "Drive to Lancaster",
+              "detail": "Arrive at family home with a buffer ahead of Thanksgiving",
+              "map": "Lancaster California",
+              "type": "drive"
+            }
+          ]
+        }
+      ],
+      "gym": "Optional hotel gym or morning run; no 24 Hour Fitness in Santa Clarita",
+      "neighborhoods": [
+        "Valencia",
+        "Bridgeport",
+        "Stevenson Ranch",
+        "Saugus (optional)"
+      ],
+      "shopping": [
+        "Valencia Town Center",
+        "Valencia neighborhood retail"
+      ]
+    },
+    {
+      "id": "nov24",
+      "date": "Nov 24 – Dec 1",
+      "short": "NOV 24+",
+      "title": "Lancaster & departure",
+      "label": "Family time / Thanksgiving",
+      "overnight": "Lancaster; flight Dec 1",
+      "hotel": "Family stay; no hotel reservation",
+      "hotelUrl": "",
+      "note": "Thanksgiving is Thursday, November 26. Confirm flight and BUR car return times; family address is intentionally omitted.",
+      "blocks": [
+        {
+          "period": "Nov 24 – Nov 30",
+          "items": [
+            {
+              "name": "Stay with family",
+              "detail": "Flexible activities; Thanksgiving Nov 26",
+              "type": "family"
+            }
+          ]
+        },
+        {
+          "period": "Tue, Dec 1",
+          "items": [
+            {
+              "name": "Return rental car and fly home",
+              "detail": "Assumes departure from Hollywood Burbank (BUR); verify airport, traffic, and return instructions",
+              "map": "Hollywood Burbank Airport CA",
+              "type": "drive"
+            }
+          ]
+        }
+      ],
+      "gym": null,
+      "neighborhoods": [],
+      "shopping": []
+    }
+  ],
+  "bookings": [
+    {
+      "id": "flight",
+      "title": "Verify arrival and departure flight details",
+      "description": "Especially SAN arrival time and whether Dec 1 departure is BUR."
+    },
+    {
+      "id": "car",
+      "title": "Reserve one-way rental car",
+      "description": "Pickup SAN · Nov 18; return BUR · Dec 1 (pending flight verification); arrange infant car seat."
+    },
+    {
+      "id": "lj",
+      "title": "Book La Jolla hotel",
+      "description": "Nov 18–19; request late checkout on Nov 19."
+    },
+    {
+      "id": "sc",
+      "title": "Book San Clemente hotel",
+      "description": "Nov 19–20."
+    },
+    {
+      "id": "hb",
+      "title": "Book Huntington Beach hotel",
+      "description": "Nov 20–21."
+    },
+    {
+      "id": "rb",
+      "title": "Book Redondo Beach hotel",
+      "description": "Nov 21–22."
+    },
+    {
+      "id": "val",
+      "title": "Book Valencia / Santa Clarita hotel",
+      "description": "Nov 22–23."
+    },
+    {
+      "id": "bay",
+      "title": "Confirm Bay Club access and childcare",
+      "description": "Check the wife's California club access, guest entitlement, infant membership eligibility, and book Nov 19/22 childcare."
+    },
+    {
+      "id": "gym",
+      "title": "Check 24 Hour Fitness entry privileges",
+      "description": "Confirm visiting-guest access and holiday-adjusted hours."
+    }
+  ],
+  "links": [
+    {
+      "title": "Bay Club childcare policy",
+      "url": "https://bayclubs.com/amenity/childcare"
+    },
+    {
+      "title": "24 Hour Fitness Santa Clarita search",
+      "url": "https://www.24hourfitness.com/gyms/santa-clarita-ca"
+    },
+    {
+      "title": "GitHub Pages setup",
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages"
+    }
+  ]
+}
