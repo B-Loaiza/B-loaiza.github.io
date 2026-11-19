@@ -8,7 +8,8 @@
     "Flexible days: select optional stops based on naps and traffic",
     "Zoo and Newport Beach excluded",
     "Use driving days for intermediate sightseeing, neighborhood and food stops; hotel distances are reference points, not instructions to double back.",
-    "All five hotels reserved. Stop along the northbound route, with local attractions as flexible options."
+    "All five hotels reserved. Stop along the northbound route, with local attractions as flexible options.",
+    "Check-in and checkout times are confirmed; plan morning workouts and departure accordingly."
   ],
   "days": [
     {
@@ -18,9 +19,9 @@
       "title": "San Diego → La Jolla",
       "label": "Arrival & waterfront",
       "overnight": "La Jolla",
-      "hotel": "Holiday Inn Express & Suites La Jolla – Windansea Beach",
+      "hotel": "Holiday Inn Express & Suites La Jolla – Windansea Beach by IHG",
       "hotelUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/la-jolla/sanlj/hoteldetail",
-      "note": "Landing time is unknown, so keep the downtown portion flexible. No Zoo visit.",
+      "note": "Hotel check-in starts at 3 PM. Keep downtown and Balboa Park flexible around arrival and daylight; after check-in, explore nearby La Jolla and wrap up by 8–9 PM.",
       "blocks": [
         {
           "period": "After landing",
@@ -75,7 +76,7 @@
             },
             {
               "name": "Check in and wind down",
-              "detail": "Aim to finish by 8–9 PM; earlier if needed for the baby",
+              "detail": "Check in from 3 PM; finish activities by 8–9 PM.",
               "type": "hotel"
             },
             {
@@ -288,7 +289,9 @@
           "type": "sightseeing",
           "url": "https://soledadmemorial.org/"
         }
-      ]
+      ],
+      "checkIn": "Wed, Nov 18 · 3:00 PM",
+      "checkOut": "Thu, Nov 19 · 11:00 AM"
     },
     {
       "id": "nov19",
@@ -299,14 +302,14 @@
       "overnight": "San Clemente",
       "hotel": "San Clemente Inn",
       "hotelUrl": "",
-      "note": "Return to the La Jolla hotel to shower, pack and check out after the gym. Standard checkout is 11 AM; request late checkout. Confirm San Clemente Inn parking and crib arrangements.",
+      "note": "Hard checkout deadline: 11 AM at La Jolla. Bay Club Carmel Valley childcare begins at 8:30 AM; keep the workout short and allow time to drive back, shower, pack and check out. If needed, request late checkout or shorten the workout. San Clemente Inn check-in starts at 4 PM; use the coastal stops to fill the time.",
       "blocks": [
         {
           "period": "Morning",
           "items": [
             {
               "name": "Bay Club Carmel Valley",
-              "detail": "Childcare schedule begins 8:30 AM Thursday; membership and reservation eligibility must be confirmed",
+              "detail": "Childcare begins 8:30 AM; confirm access. Keep the workout short enough to return to the hotel and check out by 11 AM.",
               "map": "Bay Club Carmel Valley 12000 Carmel Country Rd San Diego CA",
               "url": "https://bayclubs.com/clubs/carmelvalley",
               "type": "gym",
@@ -320,7 +323,7 @@
             },
             {
               "name": "Return to La Jolla hotel",
-              "detail": "Shower, pack and check out before driving north",
+              "detail": "Shower, pack and check out by 11 AM. Late checkout is not confirmed.",
               "type": "hotel",
               "priority": true
             }
@@ -397,6 +400,18 @@
               },
               "origin": "San Clemente Inn, 2600 Avenida Del Presidente, San Clemente, CA",
               "originLabel": "San Clemente hotel"
+            },
+            {
+              "name": "San Clemente Inn check-in",
+              "detail": "Check in from 4 PM; dinner or gym afterward, as time permits.",
+              "type": "hotel",
+              "map": "San Clemente Inn, 2600 Avenida Del Presidente, San Clemente, CA",
+              "origin": "San Clemente Inn, 2600 Avenida Del Presidente, San Clemente, CA",
+              "originLabel": "San Clemente Inn",
+              "distance": {
+                "kind": "estimate",
+                "label": "On site"
+              }
             }
           ]
         }
@@ -593,7 +608,9 @@
           "optional": true,
           "type": "sightseeing"
         }
-      ]
+      ],
+      "checkIn": "Thu, Nov 19 · 4:00 PM",
+      "checkOut": "Fri, Nov 20 · 10:00 AM"
     },
     {
       "id": "nov20",
@@ -604,10 +621,10 @@
       "overnight": "Huntington Beach",
       "hotel": "Hotel Huntington Beach",
       "hotelUrl": "https://www.hotelhb.com/",
-      "note": "Make stops along the northbound drive rather than returning from Huntington Beach. Choose shopping and neighborhood stops based on time, with the planned gym and 8–9 PM cutoff.",
+      "note": "Check out of San Clemente Inn by 10 AM. Stop in Laguna Beach, Mission Viejo, Irvine and Costa Mesa on the way north. Huntington Beach hotel check-in begins at 3 PM. Choose optional stops according to traffic, daylight and the planned workout.",
       "blocks": [
         {
-          "period": "Morning",
+          "period": "Morning · checkout by 10 AM",
           "items": [
             {
               "name": "Laguna Beach",
@@ -669,12 +686,12 @@
             },
             {
               "name": "Huntington Beach check-in",
-              "detail": "Beach walk or Pacific City before dinner",
-              "map": "Pacific City Huntington Beach CA",
+              "detail": "Check in from 3 PM. Optional beach walk or Pacific City before dinner.",
+              "map": "Hotel Huntington Beach, 7667 Center Avenue, Huntington Beach, CA",
               "type": "coast",
               "distance": {
-                "label": "6–8 mi to Pacific City",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "On site"
               },
               "origin": "Hotel Huntington Beach, 7667 Center Avenue, Huntington Beach, CA",
               "originLabel": "Huntington Beach hotel"
@@ -941,7 +958,9 @@
           "optional": true,
           "type": "sightseeing"
         }
-      ]
+      ],
+      "checkIn": "Fri, Nov 20 · 3:00 PM",
+      "checkOut": "Sat, Nov 21 · 12:00 PM"
     },
     {
       "id": "nov21",
@@ -952,7 +971,7 @@
       "overnight": "Redondo Beach",
       "hotel": "Best Western Redondo Beach Galleria Hotel - Beach City LA",
       "hotelUrl": "https://www.bestwestern.com/en-us/book/hotel/05497",
-      "note": "Saturday: Cerritos → Long Beach → Aunty Maile’s lunch → Rolling Hills Estates → Palos Verdes Estates → Redondo Beach. Check in from 3 PM; aim to finish by 8–9 PM. Keep Palos Verdes sightseeing in daylight.",
+      "note": "Huntington Beach checkout is by noon, but aim to depart around 8–9 AM to fit the route and priority lunch at Aunty Maile’s before exploring Palos Verdes in daylight. Best Western check-in starts at 3 PM; arrival can be later. Aim to finish by 8–9 PM.",
       "blocks": [
         {
           "period": "Morning / midday",
@@ -973,7 +992,7 @@
             },
             {
               "name": "Long Beach — Belmont Shore / Naples",
-              "detail": "2ND & PCH, coastal neighborhoods and lunch",
+              "detail": "2ND & PCH and coastal neighborhoods; leave lunch for Aunty Maile’s.",
               "map": "2ND and PCH Long Beach CA",
               "type": "neighborhood",
               "distance": {
@@ -1348,14 +1367,14 @@
       "overnight": "Santa Clarita",
       "hotel": "Hampton Inn Los Angeles/Santa Clarita",
       "hotelUrl": "https://www.hilton.com/en/hotels/laxvlhx-hampton-los-angeles-santa-clarita/",
-      "note": "Check out of Best Western by 11 AM. Prioritize Bay Club El Segundo in the morning; Southwood / West Torrance is optional and best done before heading north (or on Saturday if time permits). Drive through Sherman Oaks and Studio City, then Hampton Inn check-in from 4 PM.",
+      "note": "Check out of Best Western by 11 AM, ideally before the morning gym. Visit Bay Club El Segundo, then continue toward Sherman Oaks and Studio City. Southwood / West Torrance remains optional, preferably Saturday before the hotel. Hampton Inn check-in begins at 4 PM.",
       "blocks": [
         {
           "period": "Morning",
           "items": [
             {
               "name": "Bay Club El Segundo",
-              "detail": "Recommended for childcare: Sunday childcare window 8:00 AM–1:30 PM. Shower at the club after checkout if convenient.",
+              "detail": "Check out of Best Western before the gym (by 11 AM). Sunday childcare window 8 AM–1:30 PM; confirm access and reservation. Shower at the club.",
               "map": "Bay Club El Segundo 2250 Park Pl El Segundo CA",
               "url": "https://bayclubs.com/clubs/elsegundo",
               "type": "gym",
@@ -1724,10 +1743,10 @@
       "overnight": "Lancaster · family stay",
       "hotel": "Staying with family (no hotel reservation)",
       "hotelUrl": "",
-      "note": "Breakfast, Stevenson Ranch, Old Town Newhall, Valencia and Bridgeport; check out of Hampton Inn by 11 AM before continuing toward Lancaster. Keep the afternoon flexible.",
+      "note": "Hampton Inn checkout is by 11 AM. Breakfast and optional gym first; pack and check out before the longer Old Town Newhall, Stevenson Ranch, Valencia and Bridgeport loop, then continue to Lancaster.",
       "blocks": [
         {
-          "period": "Morning / midday",
+          "period": "Morning / midday · check out by 11 AM before extended scouting",
           "items": [
             {
               "name": "Valencia and Bridgeport",
@@ -2075,22 +2094,22 @@
     },
     {
       "id": "lj",
-      "title": "Holiday Inn Express & Suites La Jolla – Windansea Beach",
-      "description": "Nov 18–19 · Reserved",
+      "title": "Holiday Inn Express & Suites La Jolla – Windansea Beach by IHG",
+      "description": "Wed, Nov 18 · 3:00 PM → Thu, Nov 19 · 11:00 AM · Reserved",
       "confirmed": true,
       "pending": false
     },
     {
       "id": "sc",
       "title": "San Clemente Inn",
-      "description": "Nov 19–20 · Reserved",
+      "description": "Thu, Nov 19 · 4:00 PM → Fri, Nov 20 · 10:00 AM · Reserved",
       "confirmed": true,
       "pending": false
     },
     {
       "id": "hb",
       "title": "Hotel Huntington Beach",
-      "description": "Nov 20–21 · Reserved",
+      "description": "Fri, Nov 20 · 3:00 PM → Sat, Nov 21 · 12:00 PM · Reserved",
       "confirmed": true,
       "pending": false
     },
@@ -2145,7 +2164,7 @@
             "Seaport Village San Diego"
           ],
           "to": "6705 La Jolla Blvd, La Jolla, CA",
-          "notes": "Balboa and downtown first; La Jolla in the evening."
+          "notes": "Balboa and downtown first; La Jolla check-in from 3 PM."
         }
       ]
     },
@@ -2159,7 +2178,7 @@
             "Bay Club Carmel Valley San Diego"
           ],
           "to": "6705 La Jolla Blvd, La Jolla, CA",
-          "notes": "Gym, then shower and pack at the hotel."
+          "notes": "Gym first; return to shower, pack and check out by 11 AM. Shorten gym if necessary."
         },
         {
           "title": "Coastal drive",
@@ -2170,7 +2189,7 @@
             "San Clemente Pier CA"
           ],
           "to": "San Clemente Inn, 2600 Avenida Del Presidente, San Clemente, CA",
-          "notes": "Optional coastal stops; choose based on time."
+          "notes": "Coastal stops along the drive; San Clemente Inn check-in from 4 PM."
         },
         {
           "title": "Residential loop",
@@ -2197,7 +2216,7 @@
             "The Shops at Mission Viejo"
           ],
           "to": "Woodbridge Irvine CA",
-          "notes": "Choose a brief coastal walk and residential stops."
+          "notes": "Checkout by 10 AM, then explore Laguna and Mission Viejo."
         },
         {
           "title": "Irvine, Costa Mesa and Huntington",
@@ -2208,7 +2227,7 @@
             "Huntington Beach Pier CA"
           ],
           "to": "Hotel Huntington Beach, 7667 Center Avenue, Huntington Beach, CA",
-          "notes": "Irvine Spectrum or South Coast Plaza optional; no Newport backtracking."
+          "notes": "Huntington Beach check-in from 3 PM; Irvine Spectrum or South Coast Plaza optional."
         },
         {
           "title": "Gym stop",
@@ -2232,7 +2251,7 @@
             "Naples Long Beach CA"
           ],
           "to": "2ND & PCH Long Beach CA",
-          "notes": "Cerritos optional; follow PCH where practical."
+          "notes": "Checkout by noon, preferably depart 8–9 AM to fit Aunty Maile’s lunch and daylight sightseeing."
         },
         {
           "title": "Priority Hawaiian lunch stop",
@@ -2262,7 +2281,7 @@
           "from": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
           "via": [],
           "to": "Bay Club El Segundo CA",
-          "notes": "Morning gym; check out by 11 AM. Southwood and Del Amo are optional separate stops, preferably on Saturday or before the gym if time allows."
+          "notes": "Check out before the morning gym, no later than 11 AM. Torrance optional on Saturday."
         },
         {
           "title": "Valley and Santa Clarita",
@@ -2273,7 +2292,7 @@
             "24 Hour Fitness Mission Hills CA"
           ],
           "to": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
-          "notes": "Mission Hills gym optional. Hotel reserved."
+          "notes": "Mission Hills gym optional; Hampton Inn check-in from 4 PM."
         }
       ]
     },
@@ -2281,24 +2300,24 @@
       "day": "Nov 23 · Santa Clarita → Lancaster",
       "legs": [
         {
-          "title": "Local breakfast and neighborhood loop",
+          "title": "Breakfast and checkout",
           "from": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
           "via": [
-            "Egg Plantation 24415 Walnut St Newhall CA",
-            "Stevenson Ranch CA"
+            "Egg Plantation 24415 Walnut St Newhall CA"
           ],
           "to": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
-          "notes": "Optional breakfast and local scouting; check out by 11 AM."
+          "notes": "Optional breakfast; return, pack and check out by 11 AM."
         },
         {
-          "title": "Valencia to Lancaster",
+          "title": "Neighborhood scouting and Lancaster",
           "from": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
           "via": [
+            "Stevenson Ranch CA",
             "Valencia Town Center CA",
             "Bridgeport Valencia CA"
           ],
           "to": "Lancaster CA",
-          "notes": "Optional Hart Park or other local stops before continuing north; no private address included."
+          "notes": "After checkout, explore along the route; optional Old Town Newhall / Hart Park stop if time allows."
         }
       ]
     },
