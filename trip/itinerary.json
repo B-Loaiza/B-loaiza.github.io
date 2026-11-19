@@ -2,13 +2,13 @@
   "title": "SoCal Road Trip 2026",
   "subtitle": "San Diego → Santa Clarita → Lancaster",
   "dateRange": "November 18 – December 1, 2026",
-  "summary": "Three hotels and Avis rental reserved; two final hotel nights pending.",
+  "summary": "All five hotel nights and Avis rental are reserved.",
   "guidelines": [
     "Wrap up by 8–9 PM",
     "Flexible days: select optional stops based on naps and traffic",
     "Zoo and Newport Beach excluded",
-    "Two hotel stays remain pending",
-    "Use driving days for intermediate sightseeing, neighborhood and food stops; hotel distances are reference points, not instructions to double back."
+    "Use driving days for intermediate sightseeing, neighborhood and food stops; hotel distances are reference points, not instructions to double back.",
+    "All five hotels reserved. Stop along the northbound route, with local attractions as flexible options."
   ],
   "days": [
     {
@@ -229,7 +229,66 @@
           "source": "https://forecast.weather.gov/product.php?issuedby=SGX&product=SFT&site=sgx",
           "issued": "Nov 17, 2026"
         }
-      }
+      },
+      "localAttractions": [
+        {
+          "name": "Windansea Beach",
+          "map": "Windansea Beach La Jolla CA",
+          "detail": "Coastal views near the hotel; short walk above the surf.",
+          "distance": {
+            "kind": "published",
+            "label": "0.5 mi",
+            "source": "https://www.ihg.com/holidayinnexpress/hotels/gb/en/la-jolla/sanlj/hoteldetail"
+          },
+          "origin": "6705 La Jolla Blvd, La Jolla, CA",
+          "originLabel": "La Jolla hotel",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "Children’s Pool / Coast Boulevard",
+          "map": "Children's Pool La Jolla CA",
+          "detail": "Watch seals from the public viewing area; stay behind barriers.",
+          "distance": {
+            "kind": "published",
+            "label": "1.3 mi",
+            "source": "https://www.ihg.com/holidayinnexpress/hotels/gb/en/la-jolla/sanlj/hoteldetail"
+          },
+          "origin": "6705 La Jolla Blvd, La Jolla, CA",
+          "originLabel": "La Jolla hotel",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "Birch Aquarium",
+          "map": "Birch Aquarium 2300 Expedition Way La Jolla CA",
+          "detail": "Indoor marine exhibits; check admission and opening hours.",
+          "distance": {
+            "kind": "published",
+            "label": "3 mi",
+            "source": "https://www.ihg.com/holidayinnexpress/hotels/gb/en/la-jolla/sanlj/hoteldetail"
+          },
+          "origin": "6705 La Jolla Blvd, La Jolla, CA",
+          "originLabel": "La Jolla hotel",
+          "optional": true,
+          "type": "sightseeing",
+          "url": "https://aquarium.ucsd.edu/"
+        },
+        {
+          "name": "Mount Soledad National Veterans Memorial",
+          "map": "6905 La Jolla Scenic Drive South La Jolla CA",
+          "detail": "Panoramic hilltop and military memorial.",
+          "distance": {
+            "kind": "estimate",
+            "label": "3–4 mi"
+          },
+          "origin": "6705 La Jolla Blvd, La Jolla, CA",
+          "originLabel": "La Jolla hotel",
+          "optional": true,
+          "type": "sightseeing",
+          "url": "https://soledadmemorial.org/"
+        }
+      ]
     },
     {
       "id": "nov19",
@@ -477,6 +536,62 @@
           "name": "Indoor dining / coffee in San Clemente",
           "map": "Avenida Del Mar San Clemente CA",
           "detail": "Choose an indoor brunch or meal rather than a beach walk."
+        }
+      ],
+      "localAttractions": [
+        {
+          "name": "San Clemente State Beach",
+          "map": "San Clemente State Beach CA",
+          "detail": "Cliff-top scenery and coastal walk; check access and parking.",
+          "distance": {
+            "kind": "published",
+            "label": "0.7 mi",
+            "source": "https://www.reservations.com/hotel/san-clemente-inn"
+          },
+          "origin": "San Clemente Inn, 2600 Avenida Del Presidente, San Clemente, CA",
+          "originLabel": "San Clemente hotel",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "San Clemente Pier and Beach Trail",
+          "map": "San Clemente Pier CA",
+          "detail": "Pier, beach and sunset walk; choose an accessible trail segment.",
+          "distance": {
+            "kind": "estimate",
+            "label": "2–3 mi"
+          },
+          "origin": "San Clemente Inn, 2600 Avenida Del Presidente, San Clemente, CA",
+          "originLabel": "San Clemente hotel",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "Casa Romantica Cultural Center and Gardens",
+          "map": "415 Avenida Granada San Clemente CA",
+          "detail": "Historic coastal gardens; verify hours and ticket availability.",
+          "distance": {
+            "kind": "estimate",
+            "label": "2–3 mi"
+          },
+          "origin": "San Clemente Inn, 2600 Avenida Del Presidente, San Clemente, CA",
+          "originLabel": "San Clemente hotel",
+          "optional": true,
+          "type": "sightseeing",
+          "url": "https://www.casaromantica.org/"
+        },
+        {
+          "name": "Outlets at San Clemente",
+          "map": "Outlets at San Clemente CA",
+          "detail": "Shopping and casual dining overlooking the coast.",
+          "distance": {
+            "kind": "estimate",
+            "label": "4–5 mi"
+          },
+          "origin": "San Clemente Inn, 2600 Avenida Del Presidente, San Clemente, CA",
+          "originLabel": "San Clemente hotel",
+          "optional": true,
+          "type": "sightseeing"
         }
       ]
     },
@@ -759,7 +874,74 @@
           "source": "https://forecast.weather.gov/product.php?issuedby=SGX&product=SFT&site=sgx",
           "issued": "Nov 17, 2026"
         }
-      }
+      },
+      "localAttractions": [
+        {
+          "name": "Bella Terra",
+          "map": "Bella Terra Huntington Beach CA",
+          "detail": "Shopping and dining next to the hotel.",
+          "distance": {
+            "kind": "estimate",
+            "label": "Under 1 mi"
+          },
+          "origin": "Hotel Huntington Beach, 7667 Center Avenue, Huntington Beach, CA",
+          "originLabel": "Huntington Beach hotel",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "Huntington Central Park",
+          "map": "Huntington Central Park Huntington Beach CA",
+          "detail": "Relaxed park walk and playgrounds.",
+          "distance": {
+            "kind": "estimate",
+            "label": "3–4 mi"
+          },
+          "origin": "Hotel Huntington Beach, 7667 Center Avenue, Huntington Beach, CA",
+          "originLabel": "Huntington Beach hotel",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "Bolsa Chica Ecological Reserve",
+          "map": "Bolsa Chica Ecological Reserve Huntington Beach CA",
+          "detail": "Wetlands, birds and short outdoor walks.",
+          "distance": {
+            "kind": "estimate",
+            "label": "5–7 mi"
+          },
+          "origin": "Hotel Huntington Beach, 7667 Center Avenue, Huntington Beach, CA",
+          "originLabel": "Huntington Beach hotel",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "Huntington Beach Pier / Main Street",
+          "map": "Huntington Beach Pier CA",
+          "detail": "Ocean views, downtown shops and sunset.",
+          "distance": {
+            "kind": "estimate",
+            "label": "6–8 mi"
+          },
+          "origin": "Hotel Huntington Beach, 7667 Center Avenue, Huntington Beach, CA",
+          "originLabel": "Huntington Beach hotel",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "Pacific City",
+          "map": "Pacific City Huntington Beach CA",
+          "detail": "Oceanfront shopping and dining.",
+          "distance": {
+            "kind": "estimate",
+            "label": "6–8 mi"
+          },
+          "origin": "Hotel Huntington Beach, 7667 Center Avenue, Huntington Beach, CA",
+          "originLabel": "Huntington Beach hotel",
+          "optional": true,
+          "type": "sightseeing"
+        }
+      ]
     },
     {
       "id": "nov21",
@@ -767,10 +949,10 @@
       "short": "NOV 21",
       "title": "Huntington Beach → South Bay",
       "label": "Cerritos, Long Beach & Palos Verdes",
-      "overnight": "Hermosa / Redondo Beach",
-      "hotel": "Quality Inn & Suites Hermosa Beach",
-      "hotelUrl": "https://www.choicehotels.com/california/hermosa-beach/quality-inn-hotels/ca041",
-      "note": "Make Aunty Maile’s a priority lunch stop Saturday: closed Sunday. Drive through Cerritos and Long Beach, then stop for food in Torrance before exploring Palos Verdes in daylight. Hermosa Beach hotel remains tentative; verify availability and cancellation terms.",
+      "overnight": "Redondo Beach",
+      "hotel": "Best Western Redondo Beach Galleria Hotel - Beach City LA",
+      "hotelUrl": "https://www.bestwestern.com/en-us/book/hotel/05497",
+      "note": "Saturday: Cerritos → Long Beach → Aunty Maile’s lunch → Rolling Hills Estates → Palos Verdes Estates → Redondo Beach. Check in from 3 PM; aim to finish by 8–9 PM. Keep Palos Verdes sightseeing in daylight.",
       "blocks": [
         {
           "period": "Morning / midday",
@@ -782,11 +964,11 @@
               "type": "shopping",
               "optional": true,
               "distance": {
-                "label": "22–28 mi",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "17–22 mi"
               },
-              "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-              "originLabel": "Hermosa Beach hotel (tentative)",
+              "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+              "originLabel": "Best Western Redondo Beach",
               "enRoute": true
             },
             {
@@ -795,11 +977,11 @@
               "map": "2ND and PCH Long Beach CA",
               "type": "neighborhood",
               "distance": {
-                "label": "25–32 mi",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "20–25 mi"
               },
-              "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-              "originLabel": "Hermosa Beach hotel (tentative)",
+              "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+              "originLabel": "Best Western Redondo Beach",
               "enRoute": true
             },
             {
@@ -812,11 +994,11 @@
               "enRoute": true,
               "optional": false,
               "distance": {
-                "label": "6–8 mi",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "3–5 mi"
               },
-              "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-              "originLabel": "Hermosa Beach hotel (tentative)",
+              "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+              "originLabel": "Best Western Redondo Beach",
               "review": {
                 "value": 4.7,
                 "count": 1100,
@@ -838,11 +1020,11 @@
               "map": "Malaga Cove Plaza Palos Verdes Estates CA",
               "type": "neighborhood",
               "distance": {
-                "label": "6–9 mi to Malaga Cove",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "7–10 mi to Malaga Cove"
               },
-              "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-              "originLabel": "Hermosa Beach hotel (tentative)",
+              "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+              "originLabel": "Best Western Redondo Beach",
               "enRoute": true
             },
             {
@@ -851,11 +1033,11 @@
               "map": "Riviera Village Redondo Beach CA",
               "type": "coast",
               "distance": {
-                "label": "4–5 mi",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "5–7 mi"
               },
-              "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-              "originLabel": "Hermosa Beach hotel (tentative)"
+              "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+              "originLabel": "Best Western Redondo Beach"
             }
           ]
         }
@@ -873,19 +1055,19 @@
         "2ND & PCH",
         "Riviera Village"
       ],
-      "hotelStatus": "Pending",
-      "hotelMap": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
+      "hotelStatus": "Reserved",
+      "hotelMap": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
       "food": [
         {
           "name": "Gaucho Beach Long Beach",
           "detail": "Argentinian-inspired waterfront dining",
           "map": "Gaucho Beach Long Beach CA",
           "distance": {
-            "label": "19–25 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "18–23 mi"
           },
-          "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "originLabel": "Hermosa Beach hotel (tentative)",
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach",
           "enRoute": true,
           "review": {
             "value": 4.2,
@@ -902,11 +1084,11 @@
           "detail": "Brunch",
           "map": "Good Stuff Restaurant 1617 S Pacific Coast Highway Redondo Beach CA",
           "distance": {
-            "label": "4–5 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "5–7 mi"
           },
-          "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "originLabel": "Hermosa Beach hotel (tentative)",
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach",
           "review": {
             "value": 4.5,
             "count": 142,
@@ -922,11 +1104,11 @@
           "detail": "Mexican",
           "map": "Riviera Mexican Grill Redondo Beach CA",
           "distance": {
-            "label": "4–5 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "5–7 mi"
           },
-          "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "originLabel": "Hermosa Beach hotel (tentative)",
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach",
           "review": {
             "value": 4.5,
             "count": 197,
@@ -942,11 +1124,11 @@
           "detail": "Traditional steakhouse",
           "map": "The San Franciscan 2520 Sepulveda Blvd Torrance CA",
           "distance": {
-            "label": "5–7 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "4–5 mi"
           },
-          "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "originLabel": "Hermosa Beach hotel (tentative)",
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach",
           "review": {
             "value": 4.3,
             "count": 275,
@@ -956,6 +1138,20 @@
             "summary": "Known for prime rib and traditional steakhouse atmosphere.",
             "asOf": "Nov 17, 2026"
           }
+        },
+        {
+          "name": "Good Stuff Hermosa Beach",
+          "map": "Good Stuff Restaurant Hermosa Beach CA",
+          "detail": "Beachfront brunch option for Sunday morning.",
+          "distance": {
+            "kind": "estimate",
+            "label": "3–4 mi"
+          },
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach",
+          "optional": true,
+          "type": "food",
+          "url": "https://eatgoodstuff.com/"
         }
       ],
       "shoppingStops": [
@@ -963,31 +1159,31 @@
           "name": "Los Cerritos Center (optional)",
           "map": "Los Cerritos Center Cerritos CA",
           "distance": {
-            "label": "22–28 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "17–22 mi"
           },
-          "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "originLabel": "Hermosa Beach hotel (tentative)"
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach"
         },
         {
           "name": "2ND & PCH",
           "map": "2ND & PCH Long Beach CA",
           "distance": {
-            "label": "25–32 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "20–25 mi"
           },
-          "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "originLabel": "Hermosa Beach hotel (tentative)"
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach"
         },
         {
           "name": "Riviera Village",
           "map": "Riviera Village Redondo Beach CA",
           "distance": {
-            "label": "4–5 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "5–7 mi"
           },
-          "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "originLabel": "Hermosa Beach hotel (tentative)"
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach"
         }
       ],
       "neighborhoodStops": [
@@ -995,51 +1191,51 @@
           "name": "Cerritos",
           "map": "Cerritos CA",
           "distance": {
-            "label": "22–28 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "17–22 mi"
           },
-          "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "originLabel": "Hermosa Beach hotel (tentative)"
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach"
         },
         {
           "name": "Naples / Belmont Shore",
           "map": "Naples Long Beach CA",
           "distance": {
-            "label": "25–32 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "20–25 mi"
           },
-          "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "originLabel": "Hermosa Beach hotel (tentative)"
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach"
         },
         {
           "name": "Palos Verdes Estates",
           "map": "Malaga Cove Plaza CA",
           "distance": {
-            "label": "6–9 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "7–10 mi"
           },
-          "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "originLabel": "Hermosa Beach hotel (tentative)"
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach"
         },
         {
           "name": "Rolling Hills Estates",
           "map": "Promenade on the Peninsula Rolling Hills Estates CA",
           "distance": {
-            "label": "9–12 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "9–12 mi"
           },
-          "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "originLabel": "Hermosa Beach hotel (tentative)"
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach"
         },
         {
           "name": "Hollywood Riviera",
           "map": "Hollywood Riviera Torrance CA",
           "distance": {
-            "label": "5–7 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "5–7 mi"
           },
-          "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "originLabel": "Hermosa Beach hotel (tentative)"
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach"
         }
       ],
       "weather": {
@@ -1058,16 +1254,88 @@
           "issued": "Nov 17, 2026"
         }
       },
-      "hotelOptions": [
+      "checkIn": "Sat, Nov 21 · 3:00 PM",
+      "checkOut": "Sun, Nov 22 · 11:00 AM",
+      "localAttractions": [
         {
-          "name": "Quality Inn & Suites Hermosa Beach",
-          "rating": "8.2/10 · 1,009 reviews",
-          "url": "https://www.hotels.com/de1461168-qu0/cheap-hotels-hermosa-beach-california/"
+          "name": "South Bay Galleria",
+          "map": "South Bay Galleria Redondo Beach CA",
+          "detail": "Nearby shopping; verify current tenant hours.",
+          "distance": {
+            "kind": "estimate",
+            "label": "Under 1 mi"
+          },
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach",
+          "optional": true,
+          "type": "sightseeing"
         },
         {
-          "name": "Best Western Plus Redondo Beach Inn",
-          "rating": "8.6/10 · 1,043 reviews",
-          "url": "https://www.hotels.com/de1540052/hotels-redondo-beach-california/"
+          "name": "Redondo Beach Pier / King Harbor",
+          "map": "Redondo Beach Pier CA",
+          "detail": "Harbor-side stroll, seafood and sunset views.",
+          "distance": {
+            "kind": "published",
+            "label": "4 mi",
+            "source": "https://www.bestwestern.com/en-us/book/hotel/05497"
+          },
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "Manhattan Beach Pier",
+          "map": "Manhattan Beach Pier CA",
+          "detail": "Walk The Strand and enjoy coastal views.",
+          "distance": {
+            "kind": "published",
+            "label": "4.3 mi",
+            "source": "https://www.bestwestern.com/en-us/book/hotel/05497"
+          },
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "Hermosa Beach Pier",
+          "map": "Hermosa Beach Pier CA",
+          "detail": "Pier Plaza and beach promenade.",
+          "distance": {
+            "kind": "estimate",
+            "label": "3–4 mi"
+          },
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "Hopkins Wilderness Park",
+          "map": "1102 Camino Real Redondo Beach CA",
+          "detail": "Quiet nature walk, ponds and picnic areas; verify hours.",
+          "distance": {
+            "kind": "estimate",
+            "label": "3–4 mi"
+          },
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "Del Amo Fashion Center",
+          "map": "Del Amo Fashion Center Torrance CA",
+          "detail": "Indoor shopping and dining option in poor weather.",
+          "distance": {
+            "kind": "estimate",
+            "label": "3–5 mi"
+          },
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach",
+          "optional": true,
+          "type": "sightseeing"
         }
       ]
     },
@@ -1078,9 +1346,9 @@
       "title": "Hermosa / Redondo Beach → Santa Clarita",
       "label": "Bay Club, Valley & Valencia",
       "overnight": "Santa Clarita",
-      "hotel": "Hampton Inn Santa Clarita-Valencia",
-      "hotelUrl": "https://www.hilton.com/en/hotels/burschx-hampton-santa-clarita-valencia/",
-      "note": "Bay Club El Segundo is the childcare option; confirm membership and reserve childcare. Bay Club Redondo Beach has no onsite childcare. Mission Hills 24 Hour Fitness is optional. Valencia hotel is pending; verify availability and cancellation terms.",
+      "hotel": "Hampton Inn Los Angeles/Santa Clarita",
+      "hotelUrl": "https://www.hilton.com/en/hotels/laxvlhx-hampton-los-angeles-santa-clarita/",
+      "note": "Check out of Best Western by 11 AM. Prioritize Bay Club El Segundo in the morning; Southwood / West Torrance is optional and best done before heading north (or on Saturday if time permits). Drive through Sherman Oaks and Studio City, then Hampton Inn check-in from 4 PM.",
       "blocks": [
         {
           "period": "Morning",
@@ -1092,11 +1360,11 @@
               "url": "https://bayclubs.com/clubs/elsegundo",
               "type": "gym",
               "distance": {
-                "label": "5–7 mi",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "4–6 mi"
               },
-              "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-              "originLabel": "Hermosa Beach hotel (tentative)",
+              "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+              "originLabel": "Best Western Redondo Beach",
               "priority": true
             },
             {
@@ -1107,11 +1375,11 @@
               "type": "gym",
               "optional": true,
               "distance": {
-                "label": "1–2 mi",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "3–5 mi"
               },
-              "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-              "originLabel": "Hermosa Beach hotel (tentative)"
+              "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+              "originLabel": "Best Western Redondo Beach"
             }
           ]
         },
@@ -1125,11 +1393,11 @@
               "type": "neighborhood",
               "optional": true,
               "distance": {
-                "label": "3–5 mi",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "3–5 mi"
               },
-              "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-              "originLabel": "Hermosa Beach hotel (tentative)",
+              "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+              "originLabel": "Best Western Redondo Beach",
               "enRoute": true
             },
             {
@@ -1138,11 +1406,11 @@
               "map": "Sherman Oaks Galleria CA",
               "type": "neighborhood",
               "distance": {
-                "label": "23–30 mi",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "20–25 mi"
               },
-              "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-              "originLabel": "Santa Clarita hotel (tentative)",
+              "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+              "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
               "enRoute": true
             },
             {
@@ -1151,11 +1419,11 @@
               "map": "Studio City Los Angeles CA",
               "type": "neighborhood",
               "distance": {
-                "label": "27–34 mi",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "23–29 mi"
               },
-              "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-              "originLabel": "Santa Clarita hotel (tentative)",
+              "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+              "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
               "enRoute": true
             },
             {
@@ -1166,24 +1434,24 @@
               "type": "gym",
               "optional": true,
               "distance": {
-                "label": "17–21 mi",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "12–16 mi"
               },
-              "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-              "originLabel": "Santa Clarita hotel (tentative)",
+              "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+              "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
               "enRoute": true
             },
             {
-              "name": "Valencia check-in",
-              "detail": "Check in at the selected hotel, dinner and rest. Hampton Inn is currently a candidate.",
-              "map": "Westfield Valencia Town Center Santa Clarita CA",
+              "name": "Hampton Inn check-in",
+              "detail": "Check in from 4 PM and rest before dinner or a short local outing.",
+              "map": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
               "type": "hotel",
               "distance": {
-                "label": "4–6 mi to Town Center",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "0 mi"
               },
-              "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-              "originLabel": "Santa Clarita hotel (tentative)"
+              "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+              "originLabel": "Hampton Inn Los Angeles/Santa Clarita"
             }
           ]
         }
@@ -1200,19 +1468,19 @@
         "Sherman Oaks Galleria",
         "Valencia Town Center"
       ],
-      "hotelStatus": "Pending",
-      "hotelMap": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
+      "hotelStatus": "Reserved",
+      "hotelMap": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
       "food": [
         {
           "name": "Egg Plantation Newhall",
-          "detail": "Brunch",
-          "map": "Egg Plantation Newhall CA",
+          "detail": "Breakfast and brunch; open 6 AM–2 PM. Best for Monday before the drive to Lancaster.",
+          "map": "Egg Plantation, 24415 Walnut St, Newhall, CA",
           "distance": {
-            "label": "8–11 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "3–4 mi"
           },
-          "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "originLabel": "Santa Clarita hotel (tentative)",
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
           "review": {
             "value": 4.6,
             "count": 399,
@@ -1221,18 +1489,19 @@
             "price": "$$–$$$",
             "summary": "Extensive omelet selection; highchairs available.",
             "asOf": "Nov 17, 2026"
-          }
+          },
+          "url": "https://eggplantation.com/"
         },
         {
           "name": "La Cocina Bar & Grill Santa Clarita",
           "detail": "Mexican",
           "map": "La Cocina Bar & Grill, 28022 Seco Canyon Rd, Santa Clarita CA",
           "distance": {
-            "label": "4–8 mi (rough estimate)",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "6–9 mi"
           },
-          "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "originLabel": "Santa Clarita hotel (tentative)",
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
           "review": {
             "value": 4.4,
             "count": 80,
@@ -1242,6 +1511,32 @@
             "summary": "Fajitas and Mexican classics; Seco Canyon branch.",
             "asOf": "Nov 17, 2026"
           }
+        },
+        {
+          "name": "Outback Steakhouse",
+          "map": "25261 The Old Road Santa Clarita CA",
+          "detail": "Convenient steak dinner close to the hotel.",
+          "distance": {
+            "kind": "estimate",
+            "label": "Next door / under 0.5 mi"
+          },
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
+          "optional": true,
+          "type": "food"
+        },
+        {
+          "name": "Old Town Junction",
+          "map": "24275 Main Street Newhall CA",
+          "detail": "American dinner in Old Town Newhall.",
+          "distance": {
+            "kind": "estimate",
+            "label": "3–4 mi"
+          },
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
+          "optional": true,
+          "type": "food"
         }
       ],
       "shoppingStops": [
@@ -1249,31 +1544,31 @@
           "name": "Del Amo Fashion Center (optional)",
           "map": "Del Amo Fashion Center Torrance CA",
           "distance": {
-            "label": "4–6 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "3–5 mi"
           },
-          "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "originLabel": "Hermosa Beach hotel (tentative)"
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach"
         },
         {
           "name": "Sherman Oaks Galleria",
           "map": "Sherman Oaks Galleria CA",
           "distance": {
-            "label": "23–30 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "20–25 mi"
           },
-          "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "originLabel": "Santa Clarita hotel (tentative)"
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita"
         },
         {
           "name": "Valencia Town Center",
           "map": "Valencia Town Center CA",
           "distance": {
-            "label": "4–6 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "3–5 mi"
           },
-          "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "originLabel": "Santa Clarita hotel (tentative)"
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita"
         }
       ],
       "neighborhoodStops": [
@@ -1281,41 +1576,41 @@
           "name": "South Torrance / Southwood (if time permits)",
           "map": "Southwood Torrance CA",
           "distance": {
-            "label": "3–5 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "3–5 mi"
           },
-          "origin": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "originLabel": "Hermosa Beach hotel (tentative)"
+          "origin": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "originLabel": "Best Western Redondo Beach"
         },
         {
           "name": "Sherman Oaks",
           "map": "Sherman Oaks CA",
           "distance": {
-            "label": "23–30 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "20–25 mi"
           },
-          "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "originLabel": "Santa Clarita hotel (tentative)"
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita"
         },
         {
           "name": "Studio City",
           "map": "Studio City CA",
           "distance": {
-            "label": "27–34 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "23–29 mi"
           },
-          "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "originLabel": "Santa Clarita hotel (tentative)"
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita"
         },
         {
           "name": "Valencia",
           "map": "Valencia Town Center CA",
           "distance": {
-            "label": "4–6 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "3–5 mi"
           },
-          "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "originLabel": "Santa Clarita hotel (tentative)"
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita"
         }
       ],
       "weather": {
@@ -1334,16 +1629,89 @@
           "issued": "Nov 17, 2026"
         }
       },
-      "hotelOptions": [
+      "checkIn": "Sun, Nov 22 · 4:00 PM",
+      "checkOut": "Mon, Nov 23 · 11:00 AM",
+      "localAttractions": [
         {
-          "name": "Hampton Inn Santa Clarita-Valencia",
-          "rating": "9.0/10 · 314 reviews",
-          "url": "https://www.hotels.com/de1637922-am16384/parking-available-hotels-stevenson-ranch-california/"
+          "name": "Valencia Marketplace",
+          "map": "Valencia Marketplace Stevenson Ranch CA",
+          "detail": "Shopping and convenient casual meals.",
+          "distance": {
+            "kind": "published",
+            "label": "1 mi",
+            "source": "https://www.hilton.com/en/hotels/laxvlhx-hampton-los-angeles-santa-clarita/hotel-location/"
+          },
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
+          "optional": true,
+          "type": "sightseeing"
         },
         {
-          "name": "Holiday Inn Express & Suites Valencia",
-          "rating": "9.4/10 · 1,008 reviews",
-          "url": "https://www.hotels.com/de1633233/hotels-near-six-flags-magic-mountain-stevenson-ranch-united-states-of-america/"
+          "name": "Old Town Newhall",
+          "map": "Main Street Newhall CA",
+          "detail": "Walkable historic downtown, cafes and shops.",
+          "distance": {
+            "kind": "estimate",
+            "label": "3–4 mi"
+          },
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "William S. Hart Park",
+          "map": "24151 Newhall Ave Santa Clarita CA",
+          "detail": "Park open daily 8 AM–5 PM; barnyard closed Mondays. Best Monday for park only.",
+          "distance": {
+            "kind": "estimate",
+            "label": "4–5 mi"
+          },
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
+          "optional": true,
+          "type": "sightseeing",
+          "url": "https://hartpark.santaclarita.gov/"
+        },
+        {
+          "name": "Valencia Town Center",
+          "map": "Valencia Town Center CA",
+          "detail": "Indoor shopping and restaurants.",
+          "distance": {
+            "kind": "estimate",
+            "label": "3–5 mi"
+          },
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "Bridgeport Park",
+          "map": "Bridgeport Park Valencia CA",
+          "detail": "Residential area, park and nearby walking paths.",
+          "distance": {
+            "kind": "estimate",
+            "label": "4–6 mi"
+          },
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "Placerita Canyon Nature Center",
+          "map": "19152 Placerita Canyon Rd Newhall CA",
+          "detail": "Sunday-only option for this stay; closes 5 PM and closed Monday. Skip unless arriving early.",
+          "distance": {
+            "kind": "estimate",
+            "label": "8–11 mi"
+          },
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
+          "optional": true,
+          "type": "sightseeing",
+          "url": "https://parks.lacounty.gov/placerita-canyon-state-park/"
         }
       ]
     },
@@ -1356,7 +1724,7 @@
       "overnight": "Lancaster · family stay",
       "hotel": "Staying with family (no hotel reservation)",
       "hotelUrl": "",
-      "note": "No fixed lodging address is stored in the public trip plan. Keep the afternoon/evening flexible.",
+      "note": "Breakfast, Stevenson Ranch, Old Town Newhall, Valencia and Bridgeport; check out of Hampton Inn by 11 AM before continuing toward Lancaster. Keep the afternoon flexible.",
       "blocks": [
         {
           "period": "Morning / midday",
@@ -1367,11 +1735,11 @@
               "map": "Bridgeport Valencia CA",
               "type": "neighborhood",
               "distance": {
-                "label": "4–6 mi",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "4–6 mi"
               },
-              "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-              "originLabel": "Santa Clarita hotel (tentative)",
+              "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+              "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
               "enRoute": true
             },
             {
@@ -1380,11 +1748,11 @@
               "map": "Stevenson Ranch CA",
               "type": "neighborhood",
               "distance": {
-                "label": "7–10 mi",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "1–3 mi"
               },
-              "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-              "originLabel": "Santa Clarita hotel (tentative)",
+              "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+              "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
               "enRoute": true
             },
             {
@@ -1404,11 +1772,11 @@
               "map": "Lancaster California",
               "type": "drive",
               "distance": {
-                "label": "47–58 mi",
-                "kind": "estimate"
+                "kind": "estimate",
+                "label": "43–52 mi"
               },
-              "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-              "originLabel": "Santa Clarita hotel (tentative)",
+              "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+              "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
               "enRoute": true
             }
           ]
@@ -1426,19 +1794,19 @@
         "Valencia neighborhood retail"
       ],
       "hotelStatus": "Family stay",
-      "hotelMap": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-      "hotelMapLabel": "Directions from Santa Clarita hotel candidate",
+      "hotelMap": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+      "hotelMapLabel": "Departing from Hampton Inn Los Angeles/Santa Clarita",
       "food": [
         {
           "name": "Egg Plantation Newhall",
-          "detail": "Brunch",
-          "map": "Egg Plantation Newhall CA",
+          "detail": "Breakfast and brunch; open 6 AM–2 PM. Best for Monday before the drive to Lancaster.",
+          "map": "Egg Plantation, 24415 Walnut St, Newhall, CA",
           "distance": {
-            "label": "8–11 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "3–4 mi"
           },
-          "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "originLabel": "Santa Clarita hotel (tentative)",
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
           "review": {
             "value": 4.6,
             "count": 399,
@@ -1447,18 +1815,19 @@
             "price": "$$–$$$",
             "summary": "Extensive omelet selection; highchairs available.",
             "asOf": "Nov 17, 2026"
-          }
+          },
+          "url": "https://eggplantation.com/"
         },
         {
           "name": "La Cocina Bar & Grill Santa Clarita",
           "detail": "Mexican",
           "map": "La Cocina Bar & Grill, 28022 Seco Canyon Rd, Santa Clarita CA",
           "distance": {
-            "label": "4–8 mi (rough estimate)",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "6–9 mi"
           },
-          "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "originLabel": "Santa Clarita hotel (tentative)",
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
           "review": {
             "value": 4.4,
             "count": 80,
@@ -1468,6 +1837,19 @@
             "summary": "Fajitas and Mexican classics; Seco Canyon branch.",
             "asOf": "Nov 17, 2026"
           }
+        },
+        {
+          "name": "Old Town Junction",
+          "map": "24275 Main Street Newhall CA",
+          "detail": "Lunch option; check Monday hours before visiting.",
+          "distance": {
+            "kind": "estimate",
+            "label": "3–4 mi"
+          },
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
+          "optional": true,
+          "type": "food"
         }
       ],
       "shoppingStops": [
@@ -1475,21 +1857,22 @@
           "name": "Valencia Town Center",
           "map": "Valencia Town Center CA",
           "distance": {
-            "label": "4–6 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "3–5 mi"
           },
-          "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "originLabel": "Santa Clarita hotel (tentative)"
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita"
         },
         {
           "name": "Valencia Marketplace",
           "map": "Valencia Marketplace Stevenson Ranch CA",
           "distance": {
-            "label": "7–10 mi",
-            "kind": "estimate"
+            "kind": "published",
+            "label": "1 mi",
+            "source": "https://www.hilton.com/en/hotels/laxvlhx-hampton-los-angeles-santa-clarita/hotel-location/"
           },
-          "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "originLabel": "Santa Clarita hotel (tentative)"
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita"
         }
       ],
       "neighborhoodStops": [
@@ -1497,41 +1880,41 @@
           "name": "Valencia",
           "map": "Valencia Town Center CA",
           "distance": {
-            "label": "4–6 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "3–5 mi"
           },
-          "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "originLabel": "Santa Clarita hotel (tentative)"
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita"
         },
         {
           "name": "Bridgeport",
           "map": "Bridgeport Valencia CA",
           "distance": {
-            "label": "4–6 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "4–6 mi"
           },
-          "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "originLabel": "Santa Clarita hotel (tentative)"
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita"
         },
         {
           "name": "Stevenson Ranch",
           "map": "Stevenson Ranch CA",
           "distance": {
-            "label": "7–10 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "1–3 mi"
           },
-          "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "originLabel": "Santa Clarita hotel (tentative)"
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita"
         },
         {
           "name": "Saugus (optional)",
           "map": "Saugus Santa Clarita CA",
           "distance": {
-            "label": "8–12 mi",
-            "kind": "estimate"
+            "kind": "estimate",
+            "label": "6–9 mi"
           },
-          "origin": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "originLabel": "Santa Clarita hotel (tentative)"
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita"
         }
       ],
       "weather": {
@@ -1549,7 +1932,76 @@
           "source": "https://forecast.weather.gov/product.php?format=TXT&glossary=1&issuedby=CA&product=SFT&site=FSD&version=1",
           "issued": "Nov 17, 2026"
         }
-      }
+      },
+      "localAttractions": [
+        {
+          "name": "Valencia Marketplace",
+          "map": "Valencia Marketplace Stevenson Ranch CA",
+          "detail": "Shopping and convenient casual meals.",
+          "distance": {
+            "kind": "published",
+            "label": "1 mi",
+            "source": "https://www.hilton.com/en/hotels/laxvlhx-hampton-los-angeles-santa-clarita/hotel-location/"
+          },
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "Old Town Newhall",
+          "map": "Main Street Newhall CA",
+          "detail": "Walkable historic downtown, cafes and shops.",
+          "distance": {
+            "kind": "estimate",
+            "label": "3–4 mi"
+          },
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "William S. Hart Park",
+          "map": "24151 Newhall Ave Santa Clarita CA",
+          "detail": "Park open daily 8 AM–5 PM; barnyard closed Mondays. Best Monday for park only.",
+          "distance": {
+            "kind": "estimate",
+            "label": "4–5 mi"
+          },
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
+          "optional": true,
+          "type": "sightseeing",
+          "url": "https://hartpark.santaclarita.gov/"
+        },
+        {
+          "name": "Valencia Town Center",
+          "map": "Valencia Town Center CA",
+          "detail": "Indoor shopping and restaurants.",
+          "distance": {
+            "kind": "estimate",
+            "label": "3–5 mi"
+          },
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
+          "optional": true,
+          "type": "sightseeing"
+        },
+        {
+          "name": "Bridgeport Park",
+          "map": "Bridgeport Park Valencia CA",
+          "detail": "Residential area, park and nearby walking paths.",
+          "distance": {
+            "kind": "estimate",
+            "label": "4–6 mi"
+          },
+          "origin": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "originLabel": "Hampton Inn Los Angeles/Santa Clarita",
+          "optional": true,
+          "type": "sightseeing"
+        }
+      ]
     },
     {
       "id": "nov24",
@@ -1644,17 +2096,17 @@
     },
     {
       "id": "rb",
-      "title": "Quality Inn & Suites Hermosa Beach",
-      "description": "Nov 21–22 · Pending; confirm availability and cancellation terms.",
-      "confirmed": false,
-      "pending": true
+      "title": "Best Western Redondo Beach Galleria Hotel - Beach City LA",
+      "description": "Sat, Nov 21 · 3:00 PM → Sun, Nov 22 · 11:00 AM · Reserved",
+      "confirmed": true,
+      "pending": false
     },
     {
       "id": "val",
-      "title": "Hampton Inn Santa Clarita-Valencia",
-      "description": "Nov 22–23 · Pending; confirm availability and cancellation terms.",
-      "confirmed": false,
-      "pending": true
+      "title": "Hampton Inn Los Angeles/Santa Clarita",
+      "description": "Sun, Nov 22 · 4:00 PM → Mon, Nov 23 · 11:00 AM · Reserved",
+      "confirmed": true,
+      "pending": false
     },
     {
       "id": "bay",
@@ -1797,8 +2249,8 @@
             "Malaga Cove Plaza Palos Verdes Estates CA",
             "Riviera Village Redondo Beach CA"
           ],
-          "to": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "notes": "Continue through Rolling Hills Estates, Malaga Cove and Riviera Village. Check road closures; hotel remains tentative."
+          "to": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "notes": "Continue through Rolling Hills Estates, Malaga Cove and Riviera Village toward the reserved Best Western. Check road closures; check-in starts 3 PM."
         }
       ]
     },
@@ -1806,14 +2258,11 @@
       "day": "Nov 22 · South Bay → Santa Clarita",
       "legs": [
         {
-          "title": "South Bay neighborhoods and Bay Club",
-          "from": "Quality Inn & Suites Hermosa Beach, 901 Aviation Blvd, Hermosa Beach, CA",
-          "via": [
-            "Southwood Torrance CA",
-            "Del Amo Fashion Center Torrance CA"
-          ],
+          "title": "Redondo hotel → Bay Club El Segundo",
+          "from": "Best Western Redondo Beach Galleria Hotel, 2740 Artesia Boulevard, Redondo Beach, CA 90278",
+          "via": [],
           "to": "Bay Club El Segundo CA",
-          "notes": "Torrance and shopping optional; Bay Club planned. Move gym earlier if childcare requires."
+          "notes": "Morning gym; check out by 11 AM. Southwood and Del Amo are optional separate stops, preferably on Saturday or before the gym if time allows."
         },
         {
           "title": "Valley and Santa Clarita",
@@ -1823,8 +2272,8 @@
             "Studio City Los Angeles CA",
             "24 Hour Fitness Mission Hills CA"
           ],
-          "to": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
-          "notes": "Mission Hills gym optional. Hotel destination pending."
+          "to": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "notes": "Mission Hills gym optional. Hotel reserved."
         }
       ]
     },
@@ -1832,15 +2281,24 @@
       "day": "Nov 23 · Santa Clarita → Lancaster",
       "legs": [
         {
-          "title": "Santa Clarita neighborhood drive",
-          "from": "Hampton Inn by Hilton Santa Clarita-Valencia, 28700 Newhall Ranch Road, Santa Clarita, CA",
+          "title": "Local breakfast and neighborhood loop",
+          "from": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
           "via": [
-            "Stevenson Ranch CA",
-            "Bridgeport Valencia CA",
-            "Valencia Town Center CA"
+            "Egg Plantation 24415 Walnut St Newhall CA",
+            "Stevenson Ranch CA"
+          ],
+          "to": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "notes": "Optional breakfast and local scouting; check out by 11 AM."
+        },
+        {
+          "title": "Valencia to Lancaster",
+          "from": "Hampton Inn Los Angeles/Santa Clarita, 25259 The Old Road, Santa Clarita, CA 91381",
+          "via": [
+            "Valencia Town Center CA",
+            "Bridgeport Valencia CA"
           ],
           "to": "Lancaster CA",
-          "notes": "Explore at your own pace; no private address included."
+          "notes": "Optional Hart Park or other local stops before continuing north; no private address included."
         }
       ]
     },
@@ -1857,7 +2315,7 @@
       ]
     }
   ],
-  "distanceNote": "Hotel mileage is approximate and a reference only. En-route stops are intended for the drive between cities; use Maps for actual road distance and traffic. The last two hotel origins are tentative.",
+  "distanceNote": "Hotel distances are approximate one-way planning references, not instructions to backtrack. The new Redondo and Santa Clarita distances use the confirmed hotel addresses. Published distances link to their sources; other ranges are rough geographic estimates, not live map-calculated road mileage. Directions opens actual routing in Google Maps.",
   "reviewNote": "Ratings are sourced review snapshots checked Nov 17, 2026; platforms and review counts differ.",
   "weatherNote": "Live forecasts: Open-Meteo, city-level coordinates; daily precipitation probability is the maximum hourly probability. Dated NWS fallback appears if the live forecast is unavailable. Later dates are less certain."
 }
